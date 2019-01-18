@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*----------------------------------Top Teir social navigation desktop----------------------------------*/
+
+.header-top {
+  background-color: #B452CD;
+}
+
+.social-menu li a {
+  background-color: transparent;
+  border-radius: 0%;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.social-menu li a[href*="instagram.com"]::before {
+  content: "\f16d";
+}
+
+/*-----------------------------------------------------Slider Image---------------------------------------*/
+
+.tg-slider-widget.slider-dark .slider-image .overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tg-slider-widget.slider-dark .caption-title, .tg-slider-widget.slider-dark .caption-desc {
+    color: #fff;
+    font-family: 'Oswald';
+    text-align: left;
+    width: 60%;
+    padding-left: 25px;
+}
+
+.tg-slider-widget.slider-dark .caption-desc {
+	font-family: 'Merriweather';
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: none;
+}
+
+.tg-slider-widget.slider-dark .btn-wrapper a {
+	border-color: transparent;
+  background-color: #FF9102;
+  font-family:	'Oswald';
+  margin-left: 25px;
+}
+
+.tg-slider-widget .swiper-button-prev:before {
+	background: #FF9102;
+}
+
+.tg-slider-widget .swiper-button-next:before {
+	background: #FF9102;
+}
+
+.tg-slider-widget .slider-content {
+	height: 40%
+}
+
+/*------------------Desktop Header colors / site main navigation and breadcrumbs -----------------------------*/
+
+.header-bottom {
+  background-color: #228B22;
+}
+
+.header-sticky .is-sticky .header-bottom {
+  background-color: #228B22;
+}
+
+#site-navigation ul li ul li {
+  background-color: #228B22;
+}
+
+#site-navigation ul li {
+  text-align: center;
+}
+
+#site-navigation ul li a {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#site-navigation .sub-menu li.menu-item-has-children ul li a {
+  color: #ffffff;
+}
+
+.fa-angle-down:before {
+  color: #ffffff;
+}
+
+.header-bottom .search-wrap {
+  padding: 5px 0 20px 20px;
+}
+
+.header-bottom .search-icon {
+  color: #ffffff;
+  font-size: 30px;
+  border: none;
+}
+
+.header-bottom .search-wrap .search-box .searchform .btn,
+.testimonial-container .swiper-pagination.testimonial-pager .swiper-pagination-bullet {
+  background-color: #228B22;
+}
+
+.page .breadcrumb-trail.breadcrumbs .trail-title {
+  display: none;
+}
+
+.breadcrumb-trail.breadcrumbs .trail-items {
+  font-family: 'Oswald', sans-serif;
+}
+
+.breadcrumb-trail.breadcrumbs {
+    margin-bottom: -10px;
+}
+
+
+/*------------------Mobile Navigation / Logo resize / media queries-----------------------------*/
+
+@media (min-width:1098px){
+.logo {
+	width: 30%;
+  }
+}
+
+@media (min-width:1024px){
+.logo {
+	width: 25%;
+  }
+}
+
+@media (max-width:980px){
+.logo {
+	width: 75%;
+  }
+}
+
+@media (max-width: 768px){
+.blog-section .row:nth-child(2n) .post-image::before, .blog-section .row:nth-child(2n+1) .post-image::before, .header-top {
+	display: flex;
+  }
+}
+
+@media (max-width: 600px){
+.header-top .tg-column-wrapper {
+	display: flex;
+  flex-direction: row;
+  }
+  
+#top-footer .tg-column-wrapper .footer-block {
+    width: 100%;
+    margin: 0 0 0px;
+  }
+  
+.header-top .contact-info, .header-top .social-menu {
+    float: none;
+    line-height: 30px;
+    display: flex;
+    width: 415px;
+  	margin-left: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+.header-top .right-content {
+  	position: relative;
+    right: 2000px;
+}
+  .center-logo-below-menu .logo, .logo {
+  	padding: 0 0;}
+  
+  .tg-slider-widget.slider-content-center .caption-title, .tg-slider-widget.slider-content-left .caption-title {
+  	font-size: 25px;
+  }
+  
+	.tg-slider-widget .btn-wrapper a {
+    font-size: 18px;
+  }
+  .header-top ul.contact-info li {
+    text-align: center;
+    display: flex;
+    width: auto;
+    margin-left: -5px;
+    margin-right: 18px;
+    font-size: 10.5px;
+  }
+}
+
+#site-navigation ul>li a {
+    padding: 0px;
+  }
+
+#site-navigation .menu {
+    background-color: #228B22;
+  }
+
+#site-navigation .menu-toggle {
+    font-size: 30px;
+  }
+
+#site-navigation ul li.menu-item-has-children .sub-toggle {
+    background-color: #eeee2200;
+    font-size: 25px;
+  }
+
+#site-navigation ul li:last-child,
+  .transparent #site-navigation ul li:last-child {
+    margin-bottom: 10px;
+  }
+
+#site-navigation ul.sub-menu,
+  .transparent #site-navigation ul.sub-menu {
+    padding-left: 0px;
+  }
+
+#site-navigation ul.sub-menu li a,
+  #site-navigation ul.sub-menu li ul.sub-menu li a,
+  .transparent #site-navigation ul li a,
+  .transparent #site-navigation ul.sub-menu li a {
+    color: #ffffff;
+  }
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.fa-angle-down:before {
+  color: #eec900;
+}
+
+.header-top .right-content {
+    -webkit-box-flex: 1;
+    flex: none;
+}
+
+/*-----------------------------------------------Testimonials / Footer-----------------------------------------*/
+.testimonial-container .testimonial-client-detail{
+	font-family: 'Oswald';
+}
+
+.tg-container {
+	font-family: 'Oswald';
+  text-align: left;
+}
+
+#top-footer{
+    background-color: #FFFFFF;
+    box-shadow: 0px -4px 15px #0000001f;
+    padding: 30px 0 0px;
+}
+
+#top-footer .widget {
+    margin-bottom: 20px;
+}
+
+#top-footer .textwidget {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    position: relative;
+    padding: 0 0 0px 20px;
+    margin-bottom: -20px;
+}
+
+#top-footer .widget ul li {
+    line-height: 10px;
+}
+
+#top-footer .widget ul li a {
+	color: #000000;
+}
+
+#top-footer .widget-title {
+  color: #000000;
+  margin-bottom: 15px;
+  border-left: none;
+}
+
+#bottom-footer {
+	display: none;
+}

@@ -58,6 +58,12 @@
 	height: 40%
 }
 
+/*-----------------------------------Image resize for top teir pages----------------------------------------------------------------------------*/
+
+.so-widget-sow-image-default-bd5cd9da0588 .sow-image-container .so-widget-image {
+    width: 100%;
+}
+
 /*------------------Desktop Header colors / site main navigation and breadcrumbs -----------------------------*/
 
 .header-bottom {
